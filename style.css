@@ -141,6 +141,16 @@ button {
     width: 600px;
 }
 
+.signup-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 30px;
+    margin: 100px;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+
 ul {
     list-style-type: none;
 }
