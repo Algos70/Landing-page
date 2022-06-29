@@ -1,3 +1,15 @@
+/*This will get rid of the white space around the page. If deleted the white space (CSS reset)   */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -29,6 +41,7 @@ body {
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
+    padding-top: 8px;
 }
 
 .header ul {
