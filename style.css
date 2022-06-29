@@ -12,19 +12,23 @@ body {
     font-size: 24px;
     font-weight: 800;
     color: #f9faf8;
+    display: flex;
+    align-items: center;
+
 }
 
 .hero-main {
     display: flex;
-    padding: 70px 200px;
+    justify-content: space-around;
+    padding: 70px 100px;    
+
 
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 0 200px;
-
+    justify-content: space-around;
 }
 
 .header ul {
@@ -72,8 +76,69 @@ button {
     display: flex;
     height: 200px;
     width: 400px;
-    margin-left: 30px;
+}
 
+.info-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 40px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.square-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    border: solid #3882f6;
+}
+
+.text {
+    width: 120px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+.thinker {
+    font-weight: 800;
+    color: black;
+    display: flex;
+    align-self: flex-end;
+    width: 600px;
 }
 
 ul {
