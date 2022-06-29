@@ -1,5 +1,5 @@
 /*This will get rid of the white space around the page. If deleted the white space (CSS reset)   */
-* {
+body {
     margin: 0;
     padding: 0;
     border: 0;
