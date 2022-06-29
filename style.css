@@ -151,6 +151,15 @@ button {
     color: #f9faf8;
 }
 
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #f9faf8;
+}
+
 ul {
     list-style-type: none;
 }
